@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Pricing component with toggle</title>
+</head>
+
+<body>
+  <div class="back-top-img">
+    <img src="./images//bg-top.svg">
+  </div>
+  <div class="back-bottom-img">
+    <img src="./images//bg-bottom.svg">
+  </div>
+  <main>
+    <div class="top-section">
+      <h1>Our pricing</h1>
+      <div class="toogle">
+        Annually
+        <span>
+          <label class="switch">
+            <input type="checkbox" id="toggleSwitch" aria-checked="true" checked role="switch" />
+            <span class="slider round"></span>
+          </label>
+        </span>
+        Monthly
+      </div>
+    </div>
+    <div id="cards" class="cards">
+      <div class="card">
+        <h3>Basic</h3>
+        <div class="price">
+          <div class="icon">
+            <span>$</span>
+          </div>
+          <div class="text">
+            <p class="year">199.99</p>
+            <p class="month">19.99</p>
+          </div>
+        </div>
+        <div class="data">
+          <p class="storage">500 GB Storage</p>
+          <p class="users">2 Users</p>
+          <p class="allowed-send">Send up to 3 GB</p>
+        </div>
+        <button class="button">Learn More</button>
+      </div>
+      <div class="card">
+        <h3>Professional</h3>
+        <div class="price">
+          <div class="icon">
+            <span>$</span>
+          </div>
+          <div class="text">
+            <p class="year">249.99</p>
+            <p class="month">24.99</p>
+          </div>
+        </div>
+        <div class="data">
+          <p class="storage">500 GB Storage</p>
+          <p class="users">2 Users</p>
+          <p class="allowed-send">Send up to 3 GB</p>
+        </div>
+        <button class="button">Learn More</button>
+      </div>
+      <div class="card">
+        <h3>Master</h3>
+        <div class="price">
+          <div class="icon">
+            <span>$</span>
+          </div>
+          <div class="text">
+            <p class="year">399.99</p>
+            <p class="month">39.99</p>
+          </div>
+        </div>
+        <div class="data">
+          <p class="storage">500 GB Storage</p>
+          <p class="users">2 Users</p>
+          <p class="allowed-send">Send up to 3 GB</p>
+        </div>
+        <button class="button">Learn More</button>
+      </div>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    <br>Coded by <a href="https://github.com/szefxyz">Jakub Błaszczyk</a>.
+  </div>
+  <script src="main.js" defer></script>
+</body>
+
+</html>
