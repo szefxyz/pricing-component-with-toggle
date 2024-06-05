@@ -24,4 +24,4 @@ Users should be able to:
 
 ### Links
 - Code URL: [Codes](https://github.com/szefxyz/pricing-component-with-toggle)
-- Live Site: []()
+- Live Site: [Live View](https://szefxyz.github.io/pricing-component-with-toggle/)
